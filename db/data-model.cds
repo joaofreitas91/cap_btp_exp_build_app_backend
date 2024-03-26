@@ -1,7 +1,9 @@
-namespace my.bookshop;
+namespace my.db;
 
-entity Books {
-  key ID : Integer;
-  title  : String;
-  stock  : Integer;
+entity Business_Partner {
+  key ID : UUID;
+  name  : String;
+  address: String;
+  phone: String;
+  email: String;
 }
