@@ -16,7 +16,8 @@
     "@sap/cds-dk": "^7"
   },
   "scripts": {
-    "start": "cds-serve"
+    "start": "cds-serve",
+    "start-local": "cds serve all --with-mocks --in-memory"
   },
   "cds": {
     "requires": {
